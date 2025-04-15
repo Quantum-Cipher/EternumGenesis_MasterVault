@@ -1,0 +1,29 @@
+# 3TR.IDO | Cipher Challenge 001: The Genesis Riddle
+
+Welcome, Seeker.
+
+You’ve reached the first doorway.
+
+To unlock your Vault Share in Eternum, you must solve the following 3-layer cipher:
+
+---
+
+## Layer 1: Fibonacci Trigger
+The 8th, 11th, and 14th digits of the Fibonacci sequence hold the keys.
+Combine them into a three-digit number.
+
+_Example:_ If the digits were 1, 3, and 4 → your answer would be `134`
+
+Save your result — it feeds the next layer.
+
+---
+
+## Layer 2: Hash Invocation
+Take your 3-digit number and generate a SHA-256 hash of it.
+
+If your number was `134`, you would hash it to get:
+`d97c8a1fddc1db01f29d04d9c1f67cc13e4c61b2f44391d4095f4dcfc6310387`
+
+Use an online tool or CLI:
+```bash
+echo -n 134 | shasum -a 256
