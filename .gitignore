@@ -1,48 +1,15 @@
-# Node modules & foundry artifacts
-node_modules/
-lib/
-out/
-cache/
-ds-test/
-forge-std/
-
-# System and temp files
-.DS_Store
-*.log
-*.tmp
-*.swp
-*.save
-*.cast
-*.zip
-*.gpg
-*.asc
-
-# Local environment
-.env
-.env.*
-
-# Whisper logs & traps
-WhisperLogs/
-Whisper_Logs/
-guest_whisper_log_*.log
-
-# Vault encryption or archive bundles
-vault/**/*.enc
+# Vault archives and digests
 vault/**/*.zip
 vault/**/*.sha256
 
-# Private keys
+# Private keys and secrets
 *.pem
 *.key
 private.key
 public.key
 
-# Trash or backup
+# Trash and backups
 .Trash/
 *.old
 *.backup
 *.bak
-
-# Avoid nested Git repos
-**/.git
-**/.gitmodules
