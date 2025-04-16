@@ -1,0 +1,16 @@
+{
+  "project": "Eternum",
+  "version": "genesis",
+  "description": "Immutable whitepaper snapshot with cryptographic proof",
+  "file": "Eternum_Whitepaper.md",
+  "sha256": "2a9ec6d4e06d5b3cea781e21288bb1e482b7defa46885aa7667c2012b63662a3",
+  "ipfs_cid": "ipfs://QmZgz526NknroaJRzyBKBqKF3RraAPUAVLE8sLhPdehG6b",
+  "timestamp": "2025-04-16T07:45:54Z",
+  "signed": false,
+  "author": "Drake Peters",
+  "repository": "cipher-space",
+  "notes": [
+    "This manifest confirms the hash and CID of the initial Eternum whitepaper drop.",
+    "Generated locally and stored in offline vault for integrity check."
+  ]
+}

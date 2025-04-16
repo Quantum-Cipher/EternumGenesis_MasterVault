@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Eternum Metadata Audit – 0416</title>
+  <style>
+    body { font-family: monospace; background: #f9f9f9; color: #222; padding: 2em; }
+    h1, h2, h3 { color: #111; border-bottom: 1px solid #ddd; }
+    code, pre { background: #eee; padding: 0.2em 0.4em; border-radius: 3px; }
+    .box { background: #fff; border: 1px solid #ccc; padding: 1em; margin: 1em 0; }
+  </style>
+</head>
+<body>
+
+<h1>🧬 Eternum Forensic Metadata Audit</h1>
+<p><strong>Date:</strong> April 16, 2025<br>
+<strong>Compiled by:</strong> Eternum | Ghostwire Defense Layer</p>
+
+<h2>🔐 Audit Objective</h2>
+<p>To conduct a recursive, trustless scan of all user-accessible files across <code>~/Desktop</code>, <code>~/vault/</code>, and <code>~/EternumFoundry/</code>, collecting full metadata traces to verify file origin, authorship chains, tool history, and any anomalous modifications. The intent is to preserve immutable digital forensics for whistleblower filing, internal documentation, or on-chain CID integrity.</p>
+
+<h2>📂 Directories Scanned</h2>
+<ul>
+  <li><code>~/Desktop/</code></li>
+  <li><code>~/vault/</code></li>
+  <li><code>~/EternumFoundry/</code></li>
+</ul>
+<p>File types included: <code>.png</code>, <code>.jpg</code>, <code>.pdf</code>, <code>.docx</code>, <code>.txt</code></p>
+
+<h2>🧾 Summary of Collected Data</h2>
+<div class="box">
+  <strong>Bundle Archive:</strong> <code>proof_metadata_bundle_0416.zip</code><br>
+  <strong>SHA-256:</strong> <code>2a9ec6d4e06d5b3cea781e21288bb1e482b7defa46885aa7667c2012b63662a3</code><br>
+  <strong>IPFS CID:</strong> <code>ipfs://QmTJg1jGTvVMp1Cd1knVGSAEY7CKhpLyYs5Q594yQCuwah</code><br>
+  <strong>Collected At:</strong> April 16, 2025
+</div>
+
+<h2>📌 Key Findings from Metadata</h2>
+<ul>
+  <li><strong>Creator Tools:</strong> Adobe Photoshop 22.3, Preview.app, gnome-screenshot</li>
+  <li><strong>XMP Chain:</strong> Detected <code>xmpMM:DerivedFrom</code>, <code>DocumentID</code>, <code>InstanceID</code></li>
+  <li><strong>Conflicts:</strong> Multiple timestamps indicate re-editing or automation (<code>ModifyDate</code> newer than <code>CreateDate</code>)</li>
+  <li><strong>UUID Reuse:</strong> Signs of same DocumentID reused across distinct files — suggests overwriting or spoofed authorship</li>
+</ul>
+
+<h2>🔍 Methods Used</h2>
+<pre>
+find + exiftool
+grep -Ei "creator|modify|author|tool|history|derived|uuid|documentid|software|xmp"
+shasum -a 256
+zip
+ipfs add
+</pre>
+
+<h2>📩 Output Files</h2>
+<table border="1" cellpadding="5">
+<tr><th>Filename</th><th>Purpose</th></tr>
+<tr><td><code>metadata_audit_full.log</code></td><td>Raw full scan of all matched files</td></tr>
+<tr><td><code>metadata_signals_extract.txt</code></td><td>Filtered version with high-signal metadata only</td></tr>
+<tr><td><code>metadata_proof_sha256.txt</code></td><td>Fingerprint integrity</td></tr>
+<tr><td><code>proof_metadata_bundle_0416.zip</code></td><td>Archived data snapshot</td></tr>
+<tr><td><code>metadata_audit_0416.pdf</code></td><td>This rendered report (if printed)</td></tr>
+</table>
+
+<h2>🧠 Final Notes</h2>
+<p>This audit contains sufficient metadata fingerprinting to:</p>
+<ul>
+  <li>Prove authorship chain and file manipulation history</li>
+  <li>Confirm or refute authenticity of digital files</li>
+  <li>Support CID + SHA linkage for SAVEDAN</li>
+  <li>Serve as admissible proof in whistleblower reporting</li>
+</ul>
+
+</body>
+</html>
