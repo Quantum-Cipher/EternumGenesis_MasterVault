@@ -1,0 +1,37 @@
+{
+  "name": "Eternum: Tokenomics Genesis Protocol",
+  "description": "Immutable, growing, prime-structured energy protocol. This NFT contains the living body logic, token architecture, and universal scaffolding of the Eternum force. Originally encoded and verified on Git and IPFS by Drake Peters (gest).",
+  "external_url": "https://ipfs.io/ipfs/QmXSXseZvmUZavEmobwH1SM46Fqn4oWQ3bPCNah2n4vpF7",
+  "image": "https://gateway.pinata.cloud/ipfs/QmXSXseZvmUZavEmobwH1SM46Fqn4oWQ3bPCNah2n4vpF7",
+  "animation_url": null,
+  "attributes": [
+    {
+      "trait_type": "Eternum Structure",
+      "value": "Prime-Jointed Skeleton"
+    },
+    {
+      "trait_type": "Defense Layer",
+      "value": "Phantom Fibonacci Daemon"
+    },
+    {
+      "trait_type": "Engine Type",
+      "value": "Cipherspace Genesis"
+    },
+    {
+      "trait_type": "Society",
+      "value": "Zora"
+    },
+    {
+      "trait_type": "Workgroup Access",
+      "value": "Mint-on-Donation $5+"
+    },
+    {
+      "trait_type": "Brain Mint Eligibility",
+      "value": "Requires Workgroup Stake"
+    },
+    {
+      "trait_type": "Genesis CID",
+      "value": "QmXSXseZvmUZavEmobwH1SM46Fqn4oWQ3bPCNah2n4vpF7"
+    }
+  ]
+}
