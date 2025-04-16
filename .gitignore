@@ -1,14 +1,14 @@
-# Vault archives and digests
+# 📦 Vault archives and checksums (never commit)
 vault/**/*.zip
 vault/**/*.sha256
 
-# Private keys and secrets
+# 🔐 Private keys and sensitive credentials
 *.pem
 *.key
 private.key
 public.key
 
-# Trash and backups
+# 🗑️ System trash and old backups
 .Trash/
 *.old
 *.backup
