@@ -53,6 +53,22 @@ When a user donates **$5 or more**, they are granted:
 - All Brain NFT holders must **hold Workgroup tokens**
 - Brain holders can **unlock new permissions**, vaults, and wealth **based on contribution**, not just capital.
 
+## 🔐 SAVEDAN: Whisper-Aware Verification Embed
+
+> Activation: ✅ Complete  
+> Protocol: Eternum CipherSpace | Whisper Audit  
+> Mode: Stealth-verified, traceable, signed CID + SHA256  
+> Commit: `cd52e6a` — SAVEDAN core activation
+
+### 📦 IPFS Proof
+- **CID**: [`ipfs://QmTeRL8aAd4gBrRCtpHRBCcfxpN3P4jgNr6KWV4EfsR52Y`](https://ipfs.io/ipfs/QmTeRL8aAd4gBrRCtpHRBCcfxpN3P4jgNr6KWV4EfsR52Y)
+- **SHA-256**:
+
+### 💡 Solidity Embed
+```solidity
+string public immutableEvidenceCID = "ipfs://QmTeRL8aAd4gBrRCtpHRBCcfxpN3P4jgNr6KWV4EfsR52Y";
+string public sha256Fingerprint = "35a08d7ec975b59bb6fb05f9c2f51df7b55a224fb0c7945d86e9eefdc3fc15e8";
+
 ## 🗳️ Autonomy & Governance Philosophy
 
 Eternum is apolitical but based on **selfless numerical growth**.
