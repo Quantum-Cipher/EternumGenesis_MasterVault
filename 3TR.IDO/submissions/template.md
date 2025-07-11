@@ -1,7 +1,7 @@
 # 🔐 Eternum Genesis Cipher Submission
 
 ## 🎯 GitHub Username:
-`@YourUsername`
+`Quantum-Cipher'
 
 ## 🔓 Final Base64 Cipher Result:
 `PASTE_YOUR_RESULT_HERE`
